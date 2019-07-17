@@ -1,0 +1,27 @@
+{
+  "name": "mocha-chai-sinon",
+  "version": "1.0.0",
+  "description": "Example of testing",
+  "main": "index.js",
+  "author": "Jaroslaw Steckiewicz",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.3",
+    "sinon": "^7.3.2"
+  },
+  "dependencies": {
+    "pubsub-js": "^1.7.0",
+    "typescript": "^3.4.3"
+  },
+  "scripts": {
+    "example-1": "node src/example-1",
+    "example-2": "node src/example-2",
+    "example-3": "node src/example-3",
+    "spy-1": "node src/spy-1",
+    "fake-1": "node src/fake-1",
+    "test": "mocha",
+    "test-1": "mocha test/example1.test.js",
+    "build": "tsc --build tsconfig.build.json"
+  }
+}
