@@ -11,7 +11,6 @@
     "sinon": "^7.3.2"
   },
   "dependencies": {
-    "pubsub-js": "^1.7.0",
     "typescript": "^3.4.3"
   },
   "scripts": {
